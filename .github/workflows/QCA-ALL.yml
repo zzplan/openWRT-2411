@@ -34,7 +34,7 @@ jobs:
       matrix:
         CONFIG: [IPQ60XX-WIFI-YES]
        # SOURCE: [VIKINGYFY/immortalwrt]
-        SOURCE: [VIKINGYFY/immortalwrt/tree/06a6df434090ee6ff574f057203dc05f3a1f3ac3]
+        SOURCE: [zzplan/immortalwrt_2411]
         BRANCH: [main]
 
     #调用公用编译核心WRT-CORE.yml
