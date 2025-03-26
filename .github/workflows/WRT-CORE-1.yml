@@ -38,6 +38,8 @@ on:
         required: false
         type: string
 
+permissions: write-all
+
 env:
   GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
   WRT_TARGET: ${{inputs.WRT_TARGET}}
